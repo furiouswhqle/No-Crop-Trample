@@ -8,8 +8,8 @@
 		"furiouswhqle"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": ""
+		"homepage": "https://modrinth.com/mod/nct",
+		"sources": "https://github.com/furiouswhqle/No-Crop-Trample"
 	},
 	"license": "MIT",
 	"icon": "assets/no-crop-trample/icon.png",
