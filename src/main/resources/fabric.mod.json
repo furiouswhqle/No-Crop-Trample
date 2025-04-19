@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/nct",
-		"sources": "https://github.com/furiouswhqle/No-Crop-Trample"
+		"sources": "https://github.com/furiouswhqle/No-Crop-Trample",
+		"issues": "https://github.com/furiouswhqle/No-Crop-Trample/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/no-crop-trample/icon.png",
