@@ -24,8 +24,8 @@
 		"no-crop-trample.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.13",
-		"minecraft": "~1.21.5",
+		"fabricloader": ">=0.16.14",
+		"minecraft": "*",
 		"java": ">=21",
 		"fabric-api": "*"
 	}
