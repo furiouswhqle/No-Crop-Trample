@@ -11,7 +11,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 @Mixin(FarmlandBlock.class)
-public class NoCropTrampleMixin {
+public class FarmlandBlockMixin {
 	@Redirect(
 		method = "onLandedUpon",
 		at = @At(
@@ -19,6 +19,6 @@ public class NoCropTrampleMixin {
 			target = "Lnet/minecraft/block/FarmlandBlock;setToDirt(Lnet/minecraft/entity/Entity;Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V"
 		)
 	)
-	private void cancelFarmlandTrample(Entity entity, BlockState state, World world, BlockPos pos) {
+	private void Cancel(Entity entity, BlockState state, World world, BlockPos pos) {
 	}
 }
