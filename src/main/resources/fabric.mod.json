@@ -3,7 +3,7 @@
 	"id": "no-crop-trample",
 	"version": "${version}",
 	"name": "No Crop Trample",
-	"description": "A simple mod that disables crop trampling. Server-side only!",
+	"description": "A simple mod that disables crop trampling.",
 	"authors": [
 		"furiouswhqle"
 	],
@@ -15,18 +15,12 @@
 	"license": "MIT",
 	"icon": "assets/no-crop-trample/icon.png",
 	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"furiouswhqle.NoCropTrample"
-		]
-	},
 	"mixins": [
 		"no-crop-trample.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "*",
-		"java": ">=21",
-		"fabric-api": "*"
+		"java": ">=21"
 	}
 }
