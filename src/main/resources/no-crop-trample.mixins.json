@@ -3,9 +3,12 @@
 	"package": "furiouswhqle.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"NoCropTrampleMixin"
+		"FarmlandBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
 	}
 }
