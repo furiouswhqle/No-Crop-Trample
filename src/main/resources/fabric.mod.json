@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "nocroptrample",
+	"version": "${version}",
+	"name": "No Crop Trample",
+	"description": "A simple mod that disables crop trampling.",
+	"authors": [
+		"furiouswhqle"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/nct",
+		"sources": "https://github.com/furiouswhqle/No-Crop-Trample",
+		"issues": "https://github.com/furiouswhqle/No-Crop-Trample/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/nocroptrample/icon.png",
+	"environment": "*",
+	"mixins": [
+		"nocroptrample.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": "*"
+	}
+}
